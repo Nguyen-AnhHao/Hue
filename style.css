@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+}
+
+#top {
+    background-image: url("pexels-triduhi-youtuber-27418881.jpg");
+    background-size: cover; 
+    background-position: center; 
+    height: 500px; 
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+}
+
+.title {
+    color: white;
+    font-family: "Cinzel", serif;
+    padding: 50px 70px;    text-shadow: 0px 0px 7px black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t1 {
+    background-color: #8B4513;
+    border-radius: 5px;
+    padding: 4px 9px;
+}
+
+.t2 {
+    background-color: #9E6845;
+    border-radius: 5px;
+    padding: 4px 9px;
+}
+
+.img1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+.dainoi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, border 0.3s ease; /* Thêm hiệu ứng mượt */
+}
+
+.dainoi:hover {
+    transform: scale(1.1); /* Phóng to toàn bộ khung */
+    border-width: 4px; /* Tăng độ dày của border khi hover */
+}
+
+.thienmu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right:100px;
+    padding-left: 100px;
+    transition: transform 0.3s ease, border 0.3s ease; /* Thêm hiệu ứng mượt */
+}
+
+.thienmu:hover {
+    transform: scale(1.1); /* Phóng to toàn bộ khung */
+    border-width: 4px; /* Tăng độ dày của border khi hover */
+}
+
+
+.truongtien {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, border 0.3s ease; /* Thêm hiệu ứng mượt */
+}
+
+.truongtien:hover {
+    transform: scale(1.1); /* Phóng to toàn bộ khung */
+    border-width: 4px; /* Tăng độ dày của border khi hover */
+}
+
+#top3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+#second {
+    background-color: #9E6845;
+    margin-top: 0px;
+    padding-top:10px;
+    font-size: 20px;
+
+}
+
+.finalpic {
+    width: 170px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+#third {
+    font-family: "Imperial Script", cursive;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 30px;
+    color: #F5E6C8;
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    background: #8B4513;
+    border-bottom: 7px solid #512403;
+    border-radius: 10px;
+    margin-top: 80px;
+    transition: transform 0.3s ease, border 0.3s ease; /* Thêm hiệu ứng mượt */
+}
+
+#third:hover {
+    transform: scale(1.1); /* Phóng to toàn bộ khung */
+    border-width: 4px; /* Tăng độ dày của border khi hover */
+}
